@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Network version="7.2" name="example" nodeCount="14" linkCount="21" variableCount="14">
+  <Nodes count="14">
+    <Node id="0" in="3" out="0" variableCount="1" name="area_mean" x="196.56596320725652" y="335.92527757665619" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="0" name="area_mean" valueType="continuous" />
+    </Node>
+    <Node id="1" in="1" out="11" variableCount="1" name="area_se" x="338" y="382.25204877452757" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="1" name="area_se" valueType="continuous" />
+    </Node>
+    <Node id="2" in="2" out="1" variableCount="1" name="area_worst" x="394.16222490250948" y="285.487006335079" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="2" name="area_worst" valueType="continuous" />
+    </Node>
+    <Node id="3" in="0" out="2" variableCount="1" name="concavity_se" x="519.94437743726189" y="374.62979974943238" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="3" name="concavity_se" valueType="continuous" />
+    </Node>
+    <Node id="4" in="0" out="2" variableCount="1" name="fractal_dimension_mean" x="325.00232139285237" y="501.87496105472337" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="4" name="fractal_dimension_mean" valueType="continuous" />
+    </Node>
+    <Node id="5" in="1" out="2" variableCount="1" name="perimeter_mean" x="227.40274342209591" y="413.98056851184384" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="5" name="perimeter_mean" valueType="continuous" />
+    </Node>
+    <Node id="6" in="1" out="2" variableCount="1" name="perimeter_worst" x="322.99864606779408" y="236.29813084762645" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="6" name="perimeter_worst" valueType="continuous" />
+    </Node>
+    <Node id="7" in="2" out="1" variableCount="1" name="radius_mean" x="148.81656413868052" y="391.38397518904043" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="7" name="radius_mean" valueType="continuous" />
+    </Node>
+    <Node id="8" in="3" out="0" variableCount="1" name="radius_worst" x="268.70319566257484" y="303.340904178563" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="8" name="radius_worst" valueType="continuous" />
+    </Node>
+    <Node id="9" in="1" out="0" variableCount="1" name="smoothness_mean" x="491.08094663747966" y="464.7953409274453" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="9" name="smoothness_mean" valueType="continuous" />
+    </Node>
+    <Node id="10" in="2" out="0" variableCount="1" name="smoothness_worst" x="445.02598732984211" y="332.95424955445139" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="10" name="smoothness_worst" valueType="continuous" />
+    </Node>
+    <Node id="11" in="1" out="0" variableCount="1" name="symmetry_worst" x="423.2464878154924" y="496.12931888265018" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="11" name="symmetry_worst" valueType="continuous" />
+    </Node>
+    <Node id="12" in="2" out="0" variableCount="1" name="texture_mean" x="453.08094663747966" y="402.6567819619255" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="12" name="texture_mean" valueType="continuous" />
+    </Node>
+    <Node id="13" in="2" out="0" variableCount="1" name="texture_worst" x="217.86542056508432" y="492.30833459236635" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="13" name="texture_worst" valueType="continuous" />
+    </Node>
+  </Nodes>
+  <Links count="21">
+    <Link id="0" from="1" to="0" />
+    <Link id="1" from="1" to="2" />
+    <Link id="2" from="1" to="5" />
+    <Link id="3" from="1" to="6" />
+    <Link id="4" from="1" to="7" />
+    <Link id="5" from="1" to="8" />
+    <Link id="6" from="1" to="9" />
+    <Link id="7" from="1" to="10" />
+    <Link id="8" from="1" to="11" />
+    <Link id="9" from="1" to="12" />
+    <Link id="10" from="1" to="13" />
+    <Link id="11" from="2" to="8" />
+    <Link id="12" from="3" to="10" />
+    <Link id="13" from="3" to="12" />
+    <Link id="14" from="4" to="1" />
+    <Link id="15" from="4" to="13" />
+    <Link id="16" from="5" to="0" />
+    <Link id="17" from="5" to="7" />
+    <Link id="18" from="6" to="2" />
+    <Link id="19" from="6" to="8" />
+    <Link id="20" from="7" to="0" />
+  </Links>
+  <Distributions />
+</Network>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Network version="7.2" name="example" nodeCount="14" linkCount="22" variableCount="14">
+  <Nodes count="14">
+    <Node id="0" in="1" out="3" variableCount="1" name="area_mean" x="340.88784541763596" y="30" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="0" name="area_mean" valueType="continuous" />
+    </Node>
+    <Node id="1" in="12" out="0" variableCount="1" name="area_se" x="357" y="355.28715904339697" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="1" name="area_se" valueType="continuous" />
+    </Node>
+    <Node id="2" in="2" out="2" variableCount="1" name="area_worst" x="419.22691574982088" y="127.99999999999997" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="2" name="area_worst" valueType="continuous" />
+    </Node>
+    <Node id="3" in="3" out="1" variableCount="1" name="concavity_se" x="127" y="353.28715904339697" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="3" name="concavity_se" valueType="continuous" />
+    </Node>
+    <Node id="4" in="0" out="1" variableCount="1" name="fractal_dimension_mean" x="588" y="445.28715904339697" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="4" name="fractal_dimension_mean" valueType="continuous" />
+    </Node>
+    <Node id="5" in="1" out="3" variableCount="1" name="perimeter_mean" x="208" y="164.28715904339697" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="5" name="perimeter_mean" valueType="continuous" />
+    </Node>
+    <Node id="6" in="1" out="2" variableCount="1" name="perimeter_worst" x="502" y="270.28715904339697" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="6" name="perimeter_worst" valueType="continuous" />
+    </Node>
+    <Node id="7" in="2" out="2" variableCount="1" name="radius_mean" x="30" y="226.67258696513122" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="7" name="radius_mean" valueType="continuous" />
+    </Node>
+    <Node id="8" in="0" out="3" variableCount="1" name="radius_worst" x="597.22691574982082" y="172.28715904339697" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="8" name="radius_worst" valueType="continuous" />
+    </Node>
+    <Node id="9" in="0" out="1" variableCount="1" name="smoothness_mean" x="148" y="628.26024770158381" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="9" name="smoothness_mean" valueType="continuous" />
+    </Node>
+    <Node id="10" in="0" out="1" variableCount="1" name="smoothness_worst" x="504" y="558.287159043397" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="10" name="smoothness_worst" valueType="continuous" />
+    </Node>
+    <Node id="11" in="0" out="1" variableCount="1" name="symmetry_worst" x="326" y="633.93146913902706" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="11" name="symmetry_worst" valueType="continuous" />
+    </Node>
+    <Node id="12" in="0" out="2" variableCount="1" name="texture_mean" x="155" y="492.28715904339697" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="12" name="texture_mean" valueType="continuous" />
+    </Node>
+    <Node id="13" in="0" out="0" variableCount="1" name="texture_worst" x="936" y="350.28715904339697" width="150" height="70">
+      <NodeDistributionOptions />
+      <Variable id="13" name="texture_worst" valueType="continuous" />
+    </Node>
+  </Nodes>
+  <Links count="22">
+    <Link id="0" from="0" to="1" />
+    <Link id="1" from="0" to="5" />
+    <Link id="2" from="0" to="7" />
+    <Link id="3" from="2" to="0" />
+    <Link id="4" from="2" to="1" />
+    <Link id="5" from="3" to="1" />
+    <Link id="6" from="4" to="1" />
+    <Link id="7" from="5" to="1" />
+    <Link id="8" from="5" to="3" />
+    <Link id="9" from="5" to="7" />
+    <Link id="10" from="6" to="1" />
+    <Link id="11" from="6" to="2" />
+    <Link id="12" from="7" to="1" />
+    <Link id="13" from="7" to="3" />
+    <Link id="14" from="8" to="1" />
+    <Link id="15" from="8" to="2" />
+    <Link id="16" from="8" to="6" />
+    <Link id="17" from="9" to="1" />
+    <Link id="18" from="10" to="1" />
+    <Link id="19" from="11" to="1" />
+    <Link id="20" from="12" to="1" />
+    <Link id="21" from="12" to="3" />
+  </Links>
+  <Distributions />
+</Network>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Network version="7.2" name="pc" nodeCount="14" linkCount="23" variableCount="14">
+  <Nodes count="14">
+    <Node id="0" in="0" out="3" variableCount="1" name="area_mean" x="108" y="461" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="0" name="area_mean" valueType="continuous" />
+    </Node>
+    <Node id="1" in="11" out="0" variableCount="1" name="area_se" x="283" y="337" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="1" name="area_se" valueType="continuous" />
+    </Node>
+    <Node id="2" in="0" out="3" variableCount="1" name="area_worst" x="611" y="123" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="2" name="area_worst" valueType="continuous" />
+    </Node>
+    <Node id="3" in="0" out="2" variableCount="1" name="concavity_se" x="625" y="578" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="3" name="concavity_se" valueType="continuous" />
+    </Node>
+    <Node id="4" in="0" out="1" variableCount="1" name="fractal_dimension_mean" x="151" y="128" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="4" name="fractal_dimension_mean" valueType="continuous" />
+    </Node>
+    <Node id="5" in="1" out="2" variableCount="1" name="perimeter_mean" x="30" y="370" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="5" name="perimeter_mean" valueType="continuous" />
+    </Node>
+    <Node id="6" in="1" out="2" variableCount="1" name="perimeter_worst" x="434" y="145" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="6" name="perimeter_worst" valueType="continuous" />
+    </Node>
+    <Node id="7" in="2" out="1" variableCount="1" name="radius_mean" x="87" y="266" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="7" name="radius_mean" valueType="continuous" />
+    </Node>
+    <Node id="8" in="2" out="1" variableCount="1" name="radius_worst" x="275.49701710774593" y="30" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="8" name="radius_worst" valueType="continuous" />
+    </Node>
+    <Node id="9" in="0" out="2" variableCount="1" name="smoothness_mean" x="203.40364119500143" y="680" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="9" name="smoothness_mean" valueType="continuous" />
+    </Node>
+    <Node id="10" in="4" out="1" variableCount="1" name="smoothness_worst" x="554" y="359" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="10" name="smoothness_worst" valueType="continuous" />
+    </Node>
+    <Node id="11" in="0" out="2" variableCount="1" name="symmetry_worst" x="432" y="459" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="11" name="symmetry_worst" valueType="continuous" />
+    </Node>
+    <Node id="12" in="2" out="1" variableCount="1" name="texture_mean" x="389" y="582" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="12" name="texture_mean" valueType="continuous" />
+    </Node>
+    <Node id="13" in="0" out="2" variableCount="1" name="texture_worst" x="460.33566165669805" y="239" width="160" height="70">
+      <CustomProperties>
+        <CustomProperty name="A7732CF7-854B-4136-87D6-74BEB328533C" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="13" name="texture_worst" valueType="continuous" />
+    </Node>
+  </Nodes>
+  <Links count="23">
+    <Link id="0" from="0" to="1" />
+    <Link id="1" from="0" to="5" />
+    <Link id="2" from="0" to="7" />
+    <Link id="3" from="4" to="1" />
+    <Link id="4" from="5" to="1" />
+    <Link id="5" from="6" to="1" />
+    <Link id="6" from="7" to="1" />
+    <Link id="7" from="8" to="1" />
+    <Link id="8" from="9" to="1" />
+    <Link id="9" from="10" to="1" />
+    <Link id="10" from="11" to="1" />
+    <Link id="11" from="12" to="1" />
+    <Link id="12" from="13" to="1" />
+    <Link id="13" from="2" to="6" />
+    <Link id="14" from="2" to="8" />
+    <Link id="15" from="2" to="10" />
+    <Link id="16" from="3" to="10" />
+    <Link id="17" from="3" to="12" />
+    <Link id="18" from="5" to="7" />
+    <Link id="19" from="6" to="8" />
+    <Link id="20" from="9" to="12" />
+    <Link id="21" from="11" to="10" />
+    <Link id="22" from="13" to="10" />
+  </Links>
+  <Distributions>
+    <Distribution nodeId="0" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="0" headTail="head" />
+      </SortedVariables>
+      <Mean>0</Mean>
+      <Covariance>1</Covariance>
+    </Distribution>
+    <Distribution nodeId="2" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="2" headTail="head" />
+      </SortedVariables>
+      <Mean>0</Mean>
+      <Covariance>1</Covariance>
+    </Distribution>
+    <Distribution nodeId="3" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="3" headTail="head" />
+      </SortedVariables>
+      <Mean>0</Mean>
+      <Covariance>1</Covariance>
+    </Distribution>
+    <Distribution nodeId="4" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="4" headTail="head" />
+      </SortedVariables>
+      <Mean>0</Mean>
+      <Covariance>1</Covariance>
+    </Distribution>
+    <Distribution nodeId="9" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="9" headTail="head" />
+      </SortedVariables>
+      <Mean>0</Mean>
+      <Covariance>1</Covariance>
+    </Distribution>
+    <Distribution nodeId="11" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="11" headTail="head" />
+      </SortedVariables>
+      <Mean>0</Mean>
+      <Covariance>1</Covariance>
+    </Distribution>
+    <Distribution nodeId="13" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="13" headTail="head" />
+      </SortedVariables>
+      <Mean>0</Mean>
+      <Covariance>1</Covariance>
+    </Distribution>
+  </Distributions>
+</Network>

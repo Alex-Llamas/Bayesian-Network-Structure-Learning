@@ -1,0 +1,8 @@
+From base network we generate a dataset of 50, 000 samples. 
+
+From that file we are trying to lear the base network structure.
+
+Several tries with different bins and thresholds are calculated to find 
+the one that best fits the original.
+
+Also some other known algorithms are used.

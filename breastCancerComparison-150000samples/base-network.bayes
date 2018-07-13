@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Network version="7.2" name="True Network" nodeCount="14" linkCount="19" variableCount="14">
+  <Nodes count="14">
+    <Node id="0" in="1" out="2" variableCount="1" name="radius_mean" x="495" y="224" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="0" name="radius_mean" valueType="continuous" />
+    </Node>
+    <Node id="1" in="0" out="2" variableCount="1" name="texture_mean" x="267" y="372" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="1" name="texture_mean" valueType="continuous" />
+    </Node>
+    <Node id="2" in="2" out="1" variableCount="1" name="perimeter_mean" x="318" y="197" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="2" name="perimeter_mean" valueType="continuous" />
+    </Node>
+    <Node id="3" in="0" out="3" variableCount="1" name="area_mean" x="393.8568850698889" y="167" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="3" name="area_mean" valueType="continuous" />
+    </Node>
+    <Node id="4" in="0" out="1" variableCount="1" name="smoothness_mean" x="412" y="440" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="4" name="smoothness_mean" valueType="continuous" />
+    </Node>
+    <Node id="5" in="0" out="1" variableCount="1" name="fractal_dimension_mean" x="261" y="262" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="5" name="fractal_dimension_mean" valueType="continuous" />
+    </Node>
+    <Node id="6" in="11" out="0" variableCount="1" name="area_se" x="391" y="332" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="6" name="area_se" valueType="continuous" />
+    </Node>
+    <Node id="7" in="2" out="0" variableCount="1" name="concavity_se" x="226" y="473" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="7" name="concavity_se" valueType="continuous" />
+    </Node>
+    <Node id="8" in="0" out="3" variableCount="1" name="radius_worst" x="502" y="452" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="8" name="radius_worst" valueType="continuous" />
+    </Node>
+    <Node id="9" in="0" out="1" variableCount="1" name="texture_worst" x="577" y="288.39351865980757" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="9" name="texture_worst" valueType="continuous" />
+    </Node>
+    <Node id="10" in="1" out="2" variableCount="1" name="perimeter_worst" x="560" y="375" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="10" name="perimeter_worst" valueType="continuous" />
+    </Node>
+    <Node id="11" in="2" out="0" variableCount="1" name="area_worst" x="629" y="476" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="11" name="area_worst" valueType="continuous" />
+    </Node>
+    <Node id="12" in="0" out="2" variableCount="1" name="smoothness_worst" x="336" y="428" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="12" name="smoothness_worst" valueType="continuous" />
+    </Node>
+    <Node id="13" in="0" out="1" variableCount="1" name="symmetry_worst" x="199" y="329" width="30" height="30">
+      <CustomProperties>
+        <CustomProperty name="2A208359-E2CF-4E02-9712-45B07F2E0B2A" value="compact" />
+        <CustomProperty name="EDAA84EF-CCDC-4203-9F40-31FF3D4BD16E" value="70" />
+        <CustomProperty name="20C3C967-AF54-4EFD-848D-71491695356E" value="150" />
+      </CustomProperties>
+      <NodeDistributionOptions />
+      <Variable id="13" name="symmetry_worst" valueType="continuous" />
+    </Node>
+  </Nodes>
+  <Links count="19">
+    <Link id="0" from="0" to="2" />
+    <Link id="1" from="0" to="6" />
+    <Link id="2" from="1" to="6" />
+    <Link id="3" from="1" to="7" />
+    <Link id="4" from="2" to="6" />
+    <Link id="5" from="3" to="0" />
+    <Link id="6" from="3" to="2" />
+    <Link id="7" from="3" to="6" />
+    <Link id="8" from="4" to="6" />
+    <Link id="9" from="5" to="6" />
+    <Link id="10" from="8" to="6" />
+    <Link id="11" from="8" to="10" />
+    <Link id="12" from="8" to="11" />
+    <Link id="13" from="9" to="6" />
+    <Link id="14" from="10" to="6" />
+    <Link id="15" from="10" to="11" />
+    <Link id="16" from="12" to="6" />
+    <Link id="17" from="12" to="7" />
+    <Link id="18" from="13" to="6" />
+  </Links>
+  <Distributions>
+    <Distribution nodeId="0" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="0" headTail="head" />
+        <VariableContext variableId="3" headTail="tail" />
+      </SortedVariables>
+      <Mean>7.6521800810835128</Mean>
+      <Covariance>0.31148714323586724</Covariance>
+      <Weight>0.0098873406540435291</Weight>
+    </Distribution>
+    <Distribution nodeId="1" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="1" headTail="head" />
+      </SortedVariables>
+      <Mean>19.289648506151146</Mean>
+      <Covariance>18.466397415995132</Covariance>
+    </Distribution>
+    <Distribution nodeId="2" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="0" headTail="tail" />
+        <VariableContext variableId="2" headTail="head" />
+        <VariableContext variableId="3" headTail="tail" />
+      </SortedVariables>
+      <Mean>-2.6621883929083481</Mean>
+      <Covariance>2.4878239818701786</Covariance>
+      <Weight>6.5370336516044745 0.0034824831597402017</Weight>
+    </Distribution>
+    <Distribution nodeId="3" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="3" headTail="head" />
+      </SortedVariables>
+      <Mean>654.88910369068526</Mean>
+      <Covariance>123625.90307986448</Covariance>
+    </Distribution>
+    <Distribution nodeId="4" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="4" headTail="head" />
+      </SortedVariables>
+      <Mean>0.0963602811950791</Mean>
+      <Covariance>0.00019745207338314381</Covariance>
+    </Distribution>
+    <Distribution nodeId="5" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="5" headTail="head" />
+      </SortedVariables>
+      <Mean>0.062797609841827751</Mean>
+      <Covariance>4.976111520102791E-05</Covariance>
+    </Distribution>
+    <Distribution nodeId="6" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="0" headTail="tail" />
+        <VariableContext variableId="1" headTail="tail" />
+        <VariableContext variableId="2" headTail="tail" />
+        <VariableContext variableId="3" headTail="tail" />
+        <VariableContext variableId="4" headTail="tail" />
+        <VariableContext variableId="5" headTail="tail" />
+        <VariableContext variableId="6" headTail="head" />
+        <VariableContext variableId="8" headTail="tail" />
+        <VariableContext variableId="9" headTail="tail" />
+        <VariableContext variableId="10" headTail="tail" />
+        <VariableContext variableId="12" headTail="tail" />
+        <VariableContext variableId="13" headTail="tail" />
+      </SortedVariables>
+      <Mean>250.25309690945136</Mean>
+      <Covariance>385.313722933872</Covariance>
+      <Weight>-71.3343529138438 1.4683515271618202 5.297982961024883 0.33668579537329957 839.96048186895553 -761.76058781741744 10.203929899559911 -1.0908154045823988 -0.32189635695516472 -479.22128654245682 -39.171939759654222</Weight>
+    </Distribution>
+    <Distribution nodeId="7" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="1" headTail="tail" />
+        <VariableContext variableId="7" headTail="head" />
+        <VariableContext variableId="12" headTail="tail" />
+      </SortedVariables>
+      <Mean>-0.013551446035403737</Mean>
+      <Covariance>0.00086825596559233966</Covariance>
+      <Weight>0.0009195563847094547 0.20931885800709665</Weight>
+    </Distribution>
+    <Distribution nodeId="8" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="8" headTail="head" />
+      </SortedVariables>
+      <Mean>16.269189806678384</Mean>
+      <Covariance>23.319169299650053</Covariance>
+    </Distribution>
+    <Distribution nodeId="9" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="9" headTail="head" />
+      </SortedVariables>
+      <Mean>25.677223198594024</Mean>
+      <Covariance>37.710091762133175</Covariance>
+    </Distribution>
+    <Distribution nodeId="10" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="8" headTail="tail" />
+        <VariableContext variableId="10" headTail="head" />
+      </SortedVariables>
+      <Mean>-5.1367161628618021</Mean>
+      <Covariance>14.139575768813984</Covariance>
+      <Weight>6.9086371326556062</Weight>
+    </Distribution>
+    <Distribution nodeId="11" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="8" headTail="tail" />
+        <VariableContext variableId="10" headTail="tail" />
+        <VariableContext variableId="11" headTail="head" />
+      </SortedVariables>
+      <Mean>-1006.9945708593297</Mean>
+      <Covariance>10261.461137114617</Covariance>
+      <Weight>118.20307857279477 -0.33088029681789521</Weight>
+    </Distribution>
+    <Distribution nodeId="12" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="12" headTail="head" />
+      </SortedVariables>
+      <Mean>0.13236859402460455</Mean>
+      <Covariance>0.00052040362895469183</Covariance>
+    </Distribution>
+    <Distribution nodeId="13" type="clgaussian">
+      <SortedVariables>
+        <VariableContext variableId="13" headTail="head" />
+      </SortedVariables>
+      <Mean>0.29007557117750432</Mean>
+      <Covariance>0.003820856679155302</Covariance>
+    </Distribution>
+  </Distributions>
+</Network>
